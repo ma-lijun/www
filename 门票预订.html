@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>门票预订</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="wap-font-scale" content="no">
+        <link rel="stylesheet" href="css/cui.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-rel.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/lib.js"></script>
+    </head>
+        <!--[if IE]>
+        <script src="js/html5.js"></script>
+        <script src="js/respond.js"></script>
+        <![endif]-->
+    </head>
+<body>
+    <!-- 左侧导航 -->
+            <div class="slidernav">
+                        <div class="logo">
+                            <a href=""><img src="images/logo.png" alt=""></a>
+                        </div>
+                        <div class="nav-bg">
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                <li><a href="" class="a1" ><span>首页</span><em></em></a>
+                                    <dl class="nav-list dn">
+                                        <dd><a href=""><span>概况</span></a></dd>
+                                        <dd><a href=""><span>资讯</span></a></dd>
+                                        <dd><a href=""><span>招商引资</span></a></dd>
+                                    </dl>
+                                </li>
+                                <li  class="v1">
+                                    <a class="a2" href=""><span>园区</span><em></em></a>
+                                    <dl class="nav-list dn">
+                                        <dd><a href=""><span>概况</span></a></dd>
+                                        <dd><a href=""><span>资讯</span></a></dd>
+                                        <dd><a href=""><span>招商引资</span></a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <a class="a3" href=""><span>文化</span><em></em></a>
+                                    <dl class="nav-list dn">
+                                        <dd><a href=""><span>概况</span></a></dd>
+                                        <dd><a href=""><span>资讯</span></a></dd>
+                                        <dd><a href=""><span>招商引资</span></a></dd>
+                                    </dl>
+                                </li>
+                                <li><a class='a4' href=""><span>参观</span><em></em></a></li>
+                                <li><a class='a5' href=""><span>体验</span><em></em></a></li>
+                                <li><a class='a6' href=""><span>全景</span><em></em></a></li>
+                                <li><a class='a7' href=""><span>推荐</span><em></em></a></li>
+                                <li><a class='a8' href=""><span>预定</span><em></em></a>
+                                        <dl class="nav-list dn">
+                                            <dd><a href=""><span>概况</span></a></dd>
+                                            <dd><a href=""><span>资讯</span></a></dd>
+                                            <dd><a href=""><span>招商引资</span></a></dd>
+                                        </dl>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <a class="btn-login">登录/注册</a>
+                            <a class="btn-order"></a>
+                            <ul class="ul-language">
+                                <li class="on"><a href="">中</a></li>
+                                <li><a href="">EN</a></li>
+                                <li><a href="">JP</a></li>
+                                <li><a href="">KR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    <!-- 左侧导航 end -->
+
+    <!-- 当前位置 -->
+                <div class="cur">
+                    <div class="wp">
+                        <span><a href="">首页</a>><a href="">园区</a>><a href="">概况</a></span>
+                   </div>
+                </div>
+    <!-- 当前位置 end -->
+
+               <!-- banner -->
+               <div class="ban" style="background-image:url(images/ban1.jpg);"></div>
+               <!-- banner end -->
+               <!-- 主体内容 -->
+    <div class="wp">
+     <!-- 内页公用标题 -->
+      <div class="tit-a1">
+          门票预订
+      </div>
+      <!-- 内页公用标题 -->
+      <div class="tickets-con">
+        <form action="">
+          <!-- 中国泡菜城预订说明 -->
+          <dl class="dl-tick">
+               <dt>
+                    <h2>中国泡菜城</h2>
+                    <span>预订说明</span>
+               </dt>
+               <dd>
+                   <ul class="ul-tick">
+                       <li>
+                           <span>预订说明:</span>
+                           <p>中国泡菜城景区现阶段免费开放，景区内有部分收费项目，游客自行选择消费。</p>
+                       </li>
+                       <li>
+                           <span>日期:</span>
+                           <div class="date date2">
+                               <input class="laydate-icon" id="demo" placeholder="请选择游玩日期"> 
+                           </div>
+                       </li>
+                   </ul>
+               </dd>
+           </dl> 
+           <!-- 中国泡菜城预订说明 end-->
+           <!-- 中国泡菜城景区门票 -->
+          <dl class="dl-tick dl-tick2">
+               <dt>
+                    <h2>中国泡菜城景区门票</h2>
+               </dt>
+               <dd>
+                   <ul class="ul-tick">
+                       <li>
+                           <span>现价:</span>
+                           <div class="jiage"><strong>0.00</strong><em>元/人</em><s>原价：0.00元</s></div>
+                       </li>
+                       <li>
+                           <span>数量:</span> 
+                           <div class="buyNum">
+                                <span class="minus disabled">—</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                       </li>
+                        <li class="li1">
+                           <div class="jiage jiage2"><em>合计:</em><strong>0.00</strong><em>元</em></div>
+                       </li>
+                   </ul>
+               </dd>
+           </dl> 
+           <!-- 中国泡菜城景区门票 end-->
+            <!-- 个人信息 -->
+          <dl class="dl-tick dl-tick3">
+               <dt>
+                    <h2>个人信息</h2>
+               </dt>
+               <dd>
+                   <ul class="ul-tick">
+                       <li>
+                           <span>姓名:</span>
+                           <div class="date">
+                               <input type="text"> 
+                           </div>
+                       </li>
+                       <li>
+                           <span>手机号码:</span>
+                           <div class="date">
+                               <input type="text"> 
+                           </div>
+                       </li>
+                       <li>
+                           <span>特殊要求:</span>
+                           <div class="date">
+                               <input type="text"> 
+                           </div>
+                       </li>
+                       <li>
+                           <span>验证码:</span>
+                           <div class="date yan">
+                               <input type="text">
+                               <em>ehgf</em> 
+                               <strong>看不清楚?</strong>
+                           </div>
+                       </li>
+                       <li>
+                           <span>支付方式:</span>
+                           <div class="date radios">
+                                <input type="radio" name="radio1"><em>到达支付宝</em>
+                                <input type="radio" name="radio1"><em>支付宝</em>  
+                                
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="预定">
+                           </div>
+                       </li>
+                   </ul>
+               </dd>
+           </dl> 
+           <!-- 个人信息 end-->
+        </form>
+    </div>
+</div>
+<!-- 主体内容 end --> 
+<!-- 底部开始 -->
+<div class="footer">
+    <div class="wp ovh">
+        <div class="fd-nav">
+            <dl>
+                <dt>园 &nbsp; 区</dt>
+                <dd>
+                    <a href="">概 况</a>
+                    <a href="">资 讯</a>
+                    <a href="">招商引资</a>
+                </dd>
+            </dl> 
+            <dl>
+                <dt>文 &nbsp; 化</dt>
+                <dd>
+                    <a href="">历 史</a>
+                    <a href="">文 化</a>
+                    <a href="">泡菜故事</a>
+                </dd>
+            </dl> 
+            <dl>
+                <dt>参 &nbsp; 观</dt>
+                <dd>
+                    <a href="">泡菜博物馆</a>
+                    <a href="">泡菜风情街</a>
+                    <a href="">泡菜研究院</a>
+                    <a href="">质检中心</a>
+                    <a href="">泡菜企业</a>
+                </dd>
+            </dl> 
+            <dl>
+                <dt>体 &nbsp; 验</dt>
+                <dd>
+                    <a href="">蛋糕DIY</a>
+                    <a href="">蔬菜基地</a>
+                </dd>
+            </dl> 
+            <dl>
+                <dt>全 &nbsp; 景</dt>
+                <dd>
+                    <a href="">实景漫游</a>
+                    <a href="">游人行摄</a>
+                </dd>
+            </dl> 
+            <dl>
+                <dt>推 &nbsp; 荐</dt>
+                <dd>
+                    <a href="">爱  吃</a>
+                    <a href="">好  耍</a>
+                    <a href="">住  宿</a>
+                    <a href="">交  通</a>
+                    <a href="">攻  略</a>
+                </dd>
+            </dl> 
+            <dl>
+                <dt>预 &nbsp; 订</dt>
+                <dd>
+                    <a href="">门票预订</a>
+                    <a href="">餐饮预订</a>
+                    <a href="">酒店预订</a>
+                </dd>
+            </dl> 
+        </div>
+        <div class="c"></div>
+        <div class="fd-copy">
+            <div class="left-logo">
+                <a href=""><img src="images/fd-logo.png" alt=""></a>
+            </div>
+            <div class="right-copy">
+                <p>
+                    <a href="">联系我们</a> | <a href="">站长统计</a> | <a href="">未来游客接待量</a> | <a href="">在线满意度调查</a>
+                </p>
+                <p>Copyright ©  中国泡菜城 All Rights Reserved. Powered by Sunlue.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 返回顶部开始 -->
+<div id="back-to-top">
+    <a href=""><img src="images/back-to-top.png" alt=""></a>
+</div>
+<!-- 返回顶部结束 -->
+<!-- 底部结束 -->
+<!-- 日期控件 js-->
+ <script type="text/javascript" src="js/js/laydate.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+            !function(){
+                laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+                laydate({elem: '#demo'});//绑定元素
+            }();
+    })
+
+
+     $(document).ready(function(){
+         $('.buyNum').each(function(){
+                var _val = $(this).find('input').val()*1;
+                if( _val == 1 ){
+                    $(this).find('.minus').addClass('disabled');
+                }
+         });
+        $('.buyNum .minus').click(function(){
+            var _val = $(this).next('input').val()*1 - 1;
+            if( _val>0 ){
+                $(this).next('input').val(_val);
+            }else{
+                $(this).addClass('disabled');
+            }
+        });
+        $('.buyNum .plus').click(function(){
+            var _val = $(this).prev('input').val()*1 + 1;
+            $(this).prev('input').val(_val);
+            $(this).parents('.buyNum').find('.minus').removeClass('disabled');
+        });
+
+     });
+    </script>
+</body>
+</html>
